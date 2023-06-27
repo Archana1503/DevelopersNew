@@ -26,7 +26,8 @@ public class FindChar {
 		else if(s.charAt(i)>='0'&& s.charAt(i)<='9'){
 				totalDigits++;
 				
-		}else if(s.charAt(i)=='!'||s.charAt(i)=='@'||s.charAt(i)=='#'||s.charAt(i)=='%'||s.charAt(i)=='&')
+		}else if(s.charAt(i)=='!'||s.charAt(i)=='@'||s.charAt(i)=='#'||s.charAt(i)=='%'||
+				s.charAt(i)=='&')
 		{
 			specialchar++;
 		}else {

@@ -1,4 +1,4 @@
-package com.encapsulation;//polymorphism
+package com.encapsulation;//polymorphism//run
 
 public class Calculator {
 	public void calculateArea(int l,int b)

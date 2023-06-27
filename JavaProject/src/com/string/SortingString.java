@@ -16,20 +16,14 @@ public class SortingString {
 			}
 		}
 		}
-		
-			for(int i=0;i<sort.length;i++) {
+		for(int i=0;i<sort.length;i++) {
 			 sortedString = sortedString +" "+sort[i];
 			}
 			
 			System.out.println(sortedString);
+			}
 			
-			
-		}
-			
-		
-		
-
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 		
 String[]city= {"pune","chennai","mumbai","banglore"};
 

@@ -3,7 +3,7 @@ package com.newoops;//15.create student class asign marks and calculate the perc
 
 
 
-public class Student {
+public class Studentper {
 
 
 		
@@ -52,12 +52,12 @@ public void display() {
 
 public static void main(String[] args) {
 	
-	Student s =new Student();
+	Studentper s =new Studentper();
 	s.acceptDetails(10,"Ananya",80,90,85);
 	s.perCalculate();
 	s.display();
 	
-	Student s2=new Student();
+	Studentper s2=new Studentper();
 	s2.acceptDetails(20, "yash", 70, 35, 45);
 	s2.perCalculate();
 	s2.display();

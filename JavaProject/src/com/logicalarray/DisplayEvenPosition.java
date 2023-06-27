@@ -12,6 +12,7 @@ public class DisplayEvenPosition {
 		
 	}
 }
+	
 
 	public static void main(String[] args) {
 		

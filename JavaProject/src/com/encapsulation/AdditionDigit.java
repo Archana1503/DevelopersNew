@@ -1,4 +1,4 @@
-package com.encapsulation;
+package com.encapsulation;//not op
 import java.util.Scanner;
 
 public class AdditionDigit {
@@ -26,7 +26,7 @@ public class AdditionDigit {
 		System.out.println("Enter number");
 		int num;
 		AdditionDigit A=new AdditionDigit();
-		A.FirstLastSum(num);
+		A.FirstLastSum(11);
 		
 		
 		

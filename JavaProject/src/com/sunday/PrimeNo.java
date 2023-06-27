@@ -10,12 +10,7 @@ public class PrimeNo {
 
 		Scanner sc=new Scanner(System.in);
 		int num=sc.nextInt();
-		
-		
-	
-	
-		
-			boolean isPrime=true;
+		boolean isPrime=true;
 			for(int i=2;i<num;i++)
 			{
 				if (num%i==0)

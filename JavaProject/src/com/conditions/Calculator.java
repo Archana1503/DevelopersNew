@@ -55,7 +55,7 @@ public class Calculator {
 		        break;
 		    }
 
-		    //input.close();
+		    input.close();
 		  }
 		}
 
@@ -100,4 +100,4 @@ public class Calculator {
 //}
 //	}
 
-}
+

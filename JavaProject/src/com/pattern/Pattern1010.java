@@ -1,4 +1,5 @@
 package com.pattern;
+import java.util.*;
 
 public class Pattern1010 {
 
@@ -41,8 +42,8 @@ public class Pattern1010 {
  
         scanner.close();
     }
-}
+
 
 	}
 
-}
+

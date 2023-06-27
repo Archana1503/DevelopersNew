@@ -1,4 +1,4 @@
-package com.string;
+package com.string;//find max word
 import java.util.Arrays;
 
 public class FindMaxWord {

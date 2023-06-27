@@ -20,7 +20,7 @@ public String toString() {
 	return id+" "+name+" "+salary;
 }
 }
-public class ObjectArray {
+public class ObjtAry {
 
 	public static void main(String[] args) {
 		

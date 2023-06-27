@@ -1,5 +1,5 @@
 package com.LabAssignment;//check prime number
-import java.lang.reflect.Array;
+
 import java.util.Scanner;
 
 public class XobinTest {

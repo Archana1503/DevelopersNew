@@ -1,4 +1,4 @@
-package com.encapsulation;//has a relationship in java//
+package com.encapsulation;//has a relationship in java//run
 
 class Address{
 	int apin;

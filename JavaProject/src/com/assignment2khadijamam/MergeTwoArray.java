@@ -1,5 +1,5 @@
 package com.assignment2khadijamam;
-import java.util.Scanner;
+import java.util.Scanner;//merge two arrays
 
 public class MergeTwoArray {
 	

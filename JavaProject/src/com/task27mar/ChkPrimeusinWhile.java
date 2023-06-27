@@ -3,29 +3,26 @@ import java.util.Scanner;
 
 public class ChkPrimeusinWhile {
 
-	public static void main(String[] args) {
-	
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int num = sc.nextInt();
 
-Scanner sc=new Scanner("System.in");
-System.out.println("enter value of number");
-int num=sc.nextInt();
+        int n = 2;
+        boolean isPrime = true;
 
+        while (n <= num / 2) {
+            if (num % n == 0) {
+                isPrime = false;
+                break;
+            }
+            n++;
+        }
 
-
-int n = 2;
-
-while (n <= num / 2) {
- if (num % n == 0) {
-  
-  break;
- }
- n++;
-}
-if (divisibleCount == 0 ) {
- System.out.print(num + " is a prime number ");
-} else {
- System.out.print( + " is not a prime number ");
-}
-
-}
+        if (isPrime) {
+            System.out.println(num + " is a prime number.");
+        } else {
+            System.out.println(num + " is not a prime number.");
+        }
+    }
 }

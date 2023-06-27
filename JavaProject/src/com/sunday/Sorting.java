@@ -27,7 +27,7 @@ public class Sorting {
 
 	public static void main(String[] args) {
 		
-int arr[]= {7,6,12,4,15};
+int arr[]= {7,6,12,-4,15,-1};
 //Sorting s=new Sorting();
 
 sort(arr);

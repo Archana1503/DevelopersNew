@@ -32,12 +32,13 @@ public class UniqueElement {
 				 
 					 if(count==1) {
 					 System.out.println(arr[i]+" is  element with times  "+count);
+					 System.out.println("......");
 						 
 					 }
-//					 if(count>1) {
-//						 System.out.println(arr[i]+" is dublicate element s  "+count);
-//					 }
-//					
+				 if(count>1) {
+						 System.out.println(arr[i]+" is dublicate element s  "+count);
+					 }
+					
 				 
 				 }
 		}

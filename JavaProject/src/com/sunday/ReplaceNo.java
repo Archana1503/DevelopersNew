@@ -1,4 +1,4 @@
-package com.sunday;
+package com.sunday;//replaceno
 
 public class ReplaceNo {
 	public void display(int arr[]) {

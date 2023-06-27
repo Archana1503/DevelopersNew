@@ -1,12 +1,24 @@
-package com.sunday;
+package com.sunday;//wireless chk
 
-public class ElectricalMain {
+interface NonWireless {
+    void Fridge();
+    void phone();
+}
 
-	public static void main(String[] args) {
-		NonWireless e=new NonWireless();
-		e.Fridge();
-		e.phone();
+class ElectricalMain implements NonWireless {
+    @Override
+    public void Fridge() {
+        System.out.println("Using a non-wireless fridge.");
+    }
 
-	}
+    @Override
+    public void phone() {
+        System.out.println("Using a non-wireless phone.");
+    }
 
+    public static void main(String[] args) {
+        ElectricalMain e = new ElectricalMain();
+        e.Fridge();
+        e.phone();
+    }
 }
